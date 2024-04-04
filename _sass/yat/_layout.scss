@@ -582,7 +582,7 @@ html {
     width: 100%;
     height: 100%;
     overflow: auto;
-    
+
 
     & > *:first-child {
       @include center-image;
@@ -636,7 +636,7 @@ html {
       }
 
       > :last-child {
-        margin-bottom: 0;
+        margin-bottom: -0;
       }
     }
 
@@ -780,4 +780,9 @@ html {
   margin: 0 10px;
   background-color: #e3e3e3e3;
   vertical-align: baseline;
+}
+
+.logo{
+  width:131px;
+  height:70px;
 }
