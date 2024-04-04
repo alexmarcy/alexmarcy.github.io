@@ -147,7 +147,7 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
- header_pages:
+# header_pages:
 #   - index.html
 #   - archives.html
 #   - categories.html
@@ -156,9 +156,9 @@ yat:
 
 # Page default value
  #defaults:
- home:
-   heading: "Learn the Secrets of MQTT with the MQTT Mafia"
-   subheading: "Get your data where you need it."
+# home:
+#   heading: "Learn the Secrets of MQTT with the MQTT Mafia"
+#   subheading: "Get your data where you need it."
 #     banner: "Your image url"
 
 # Banner default settings
