@@ -3,9 +3,11 @@ layout: post
 title: What is MQTT Mafia?
 subtitle: Start making your data work for you using MQTT.
 categories: about
-tags: [about, mqtt-mafia]
 description: The introductory post for MQTT Mafia describing why MQTT Mafia exists, what it stands for and how we intend to help the world learn MQTT!
+headline: The introductory post for MQTT Mafia describing why MQTT Mafia exists, what it stands for and how we intend to help the world learn MQTT!
 image: /assets/images/home.png
+tags: [about, mqtt-mafia]
+author: MQTT Mafia
 ---
 
 MQTT has been around for a long time.
