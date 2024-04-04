@@ -17,7 +17,7 @@ html {
 
       &.site-header {
         .site-brand-inner, .page-link {
-          color: #fff;
+          color: #000000;
           transition: 0.1s color;
         }
 
@@ -783,6 +783,5 @@ html {
 }
 
 .logo{
-  width:131px;
-  height:70px;
+  height:$header-height - 3px;
 }

@@ -1,129 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-04T13:28:40-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>GitHub User</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/2024/04/04/welcome-to-the-mqtt-mafia.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-04-04T00:00:00-04:00</published><updated>2024-04-04T00:00:00-04:00</updated><id>http://localhost:4000/jekyll/2024/04/04/welcome-to-the-mqtt-mafia</id><content type="html" xml:base="http://localhost:4000/jekyll/2024/04/04/welcome-to-the-mqtt-mafia.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-04T16:11:05-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">MQTT Mafia</title><subtitle>MQTT Mafia is the primary resource for MQTT information on the internet. It provides open and honest discussions about how to perform various tasks with MQTT enabled technology. MQTT Mafia is an educational resource for anyone looking to use MQTT in their technology stack.</subtitle><author><name>MQTT Mafia</name></author><entry><title type="html">What is MQTT Mafia?</title><link href="http://localhost:4000/about/2024/04/04/what-is-mqtt-mafia.html" rel="alternate" type="text/html" title="What is MQTT Mafia?" /><published>2024-04-04T00:00:00-04:00</published><updated>2024-04-04T00:00:00-04:00</updated><id>http://localhost:4000/about/2024/04/04/what-is-mqtt-mafia</id><content type="html" xml:base="http://localhost:4000/about/2024/04/04/what-is-mqtt-mafia.html"><![CDATA[<p>MQTT has been around for a long time.</p>
 
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>Many people are finding out about it for the first time. While it can be an extremely powerful tool across many use cases and industries, it is also a dense topic to learn.</p>
 
-<h2 id="section-1">section 1</h2>
+<p>There are a lot of tutorials out there showing you how to accomplish a specific task in a particular scenario. If you aren’t trying to do that exact thing you are going to run into some hurdles.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h2 id="the-goal-of-mqtt-mafia">The Goal of MQTT Mafia</h2>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-<span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>MQTT Mafia’s primary goal is to simplify MQTT, make it easy to understand across the many different use cases, and give you the tools you need to be proficient with MQTT.</p>
 
-<h2 id="section-2">section 2</h2>
+<p>While there are probably interesting ways you could use MQTT in a criminal sense, we are using the definition of Mafia to mean the following:</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>“<strong><em>a group of people of similar interests or backgrounds prominent in a particular field or enterprise</em></strong>”</p>
 
-<p>$ a * b = c ^ b $</p>
+<p>Our similar interests are MQTT, data management, and educating the world on how to use technology to solve problems. We have experience in manufacturing, technology, software development, home automation, and many other areas, using MQTT as a way to connect different devices, people, systems, and send data back and forth.</p>
 
-<p>$ 2^{\frac{n-1}{3}} $</p>
+<p>You might find us on the floor of the Entelec conference. You might find us discussing the ins and outs of MQTT in conjunction with Unified Namespaces, and you might find us setting up sensors at our houses to collect as much interesting data we can about the worl around us.</p>
 
-<p>$ \int_a^b f(x)\,dx. $</p>
+<p>We are not a closed group, we welcome new people into the fold all the time and are excited to have us be part of your journey!</p>
 
-<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
-</span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-
-<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello World!"</span><span class="p">;</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="c1">// prints 'Hi, Tom' to STDOUT.</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
-  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">age</span><span class="p">):</span>
-    <span class="n">self</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
-    <span class="n">self</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="n">age</span>
-
-<span class="n">p1</span> <span class="o">=</span> <span class="nc">Person</span><span class="p">(</span><span class="sh">"</span><span class="s">John</span><span class="sh">"</span><span class="p">,</span> <span class="mi">36</span><span class="p">)</span>
-
-<span class="nf">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">p1</span><span class="p">.</span><span class="n">age</span><span class="p">)</span>
-</code></pre></div></div>]]></content><author><name>Jeffrey</name></author><category term="jekyll" /><category term="jekyll" /><category term="theme" /><category term="yat" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">An exhibit of Markdown</title><link href="http://localhost:4000/markdown/2018/12/05/an-exhibit-of-markdown.html" rel="alternate" type="text/html" title="An exhibit of Markdown" /><published>2018-12-05T00:00:00-05:00</published><updated>2018-12-05T00:00:00-05:00</updated><id>http://localhost:4000/markdown/2018/12/05/an-exhibit-of-markdown</id><content type="html" xml:base="http://localhost:4000/markdown/2018/12/05/an-exhibit-of-markdown.html"><![CDATA[<p>This note demonstrates some of what <a href="https://daringfireball.net/projects/markdown/">Markdown</a> is capable of doing.</p>
-
-<h2 id="an-exhibit-of-markdown">An exhibit of Markdown</h2>
-
-<p><em>Note: Feel free to play with this page. Unlike regular notes, this doesn’t automatically save itself.</em></p>
-
-<h2 id="basic-formatting">Basic formatting</h2>
-
-<p>Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</p>
-
-<p>Paragraphs must be separated by a blank line. Basic formatting of <em>italics</em> and <strong>bold</strong> is supported. This <em>can be <strong>nested</strong> like</em> so.</p>
-
-<h2 id="lists">Lists</h2>
-
-<h3 id="ordered-list">Ordered list</h3>
+<h3 id="we-plan-to-accomplish-this-goal-by-doing-a-few-things">We plan to accomplish this goal by doing a few things:</h3>
 
 <ol>
-  <li>Item 1</li>
-  <li>A second item</li>
-  <li>Number 3</li>
-  <li>Ⅳ</li>
+  <li>Explaining HOW to do things, first in specific instances, then generalizing the concepts so you can apply them anywhere.</li>
+  <li>Using open source tools and/or free tools where possible.</li>
+  <li>Showing you real-world architectures and implementations</li>
+  <li>Doing cool stuff you wouldn’t think is possible with MQTT</li>
 </ol>
 
-<p><em>Note: the fourth item uses the Unicode character for <a href="https://www.fileformat.info/info/unicode/char/2163/index.htm">Roman numeral four</a>.</em></p>
+<h2 id="how-to-do-and-how-to-generalize">How to Do and How to Generalize</h2>
 
-<h3 id="unordered-list">Unordered list</h3>
+<p>The main hurdle in most MQTT tutorials and documentation is giving you a single example of setting up a connection and not giving you any context as to why you are making certain decisions.</p>
 
-<ul>
-  <li>An item</li>
-  <li>Another item</li>
-  <li>Yet another item</li>
-  <li>And there’s more…</li>
-</ul>
+<p>This leads to a lot more troubleshooting and banging your head against the wall than anyone should have to experience while trying to get data from point A to point B.</p>
 
-<h2 id="paragraph-modifiers">Paragraph modifiers</h2>
+<p>If you have ever not seen data come across because your Primary Host ID didn’t match, you didn’t use the correct format for your access lists, or you had an errant typo in a topic name you are not alone.</p>
 
-<h3 id="code-block">Code block</h3>
+<p>MQTT doesn’t have to be a house of cards where the only way to figure it out is to keep shuffling up and trying again when it falls over. You don’t need Arlen Nipper, one of the creators of MQTT to come out to your facility to implement it for you, and you certainly don’t need to spend as much time as we have over the years scratching your head until you finally stumble upon the magic combination that works.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
-</code></pre></div></div>
+<p>We will not only show you how to do a particular task, demonstrating WHAT we are doing. We will also explain WHY we are doing it, and how that applies to the overall concepts in play. This will help you expand your knowledge and understanding, making it easier to solve problems in the future.</p>
 
-<p>You can also make <code class="language-plaintext highlighter-rouge">inline code</code> to add code into other things.</p>
+<h2 id="free-and-open-source-where-possible">Free and Open Source Where Possible</h2>
 
-<h3 id="quote">Quote</h3>
+<p>Yes you can spend a decent amount of money on MQTT software, cloud brokers, and labor to set everything up. One of the beauties of MQTT is being able to take advantage of free and open source tools to learn without having to invest anything more than your time.</p>
 
-<blockquote>
-  <p>Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.</p>
-</blockquote>
+<p>Unless we are diving into a particular tool to demonstrate something, we will use free and open source options wherever possible to make it easy for anyone with a computer to get their hands dirty with MQTT.</p>
 
-<h2 id="headings">Headings</h2>
+<h2 id="where-the-rubber-meets-the-road">Where the Rubber Meets the Road</h2>
 
-<p>There are six levels of headings. They correspond with the six levels of HTML headings. You’ve probably noticed them already in the page. Each level down uses one more hash character.</p>
+<p>While we won’t be opening up brokers to the public to get into closed systems, we will be explaining how we have used MQTT across various industries, applications, and use cases to give you an idea of what is possible.</p>
 
-<h3 id="headings-can-also-contain-formatting">Headings <em>can</em> also contain <strong>formatting</strong></h3>
+<p>It’s great to hear conference sessions looking at millions of data points streaming all over the world. Numbers on a slide deck don’t always translate to the nitty gritty details of how something works.</p>
 
-<h3 id="they-can-even-contain-inline-code">They can even contain <code class="language-plaintext highlighter-rouge">inline code</code></h3>
+<p>We will share examples of how it has worked for us in the past, lessons we learned along the way, and how you can get the same results, or even leapfrog us and do your own awesome stuff!</p>
 
-<p>Of course, demonstrating what headings look like messes up the structure of the page.</p>
+<h2 id="lets-do-cool-stuff-you-didnt-think-was-possible">Let’s Do Cool Stuff You Didn’t Think Was Possible!</h2>
 
-<p>I don’t recommend using more than three or four levels of headings here, because, when you’re smallest heading isn’t too small, and you’re largest heading isn’t too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.</p>
+<p>MQTT is an interesting protocol. Not only can you do typical, some might even say boring, stuff with it like sending process data from one place to another. Sure, you can set up edge nodes and converge your IT/OT networks, and build Unified Namespaces.</p>
 
-<h2 id="urls">URLs</h2>
+<p>You can also set up messaging interfaces (Facebook uses MQTT for its Messenger Service), integrate with file systems (for doing things like grabbing images from IP Cameras and sending those up to your broker), and many other interesting use cases beyond just grabbing process data.</p>
 
-<p>URLs can be made in a handful of ways:</p>
+<p>Over time we will show off some of these cool projects, find more interesting ones to share, and hopefully give you a lot of ideas you can use on your journey to fully understanding MQTT.</p>
 
-<ul>
-  <li>A named link to <a href="https://www.markitdown.net/">MarkItDown</a>. The easiest way to do these is to select what you want to make a link and hit <code class="language-plaintext highlighter-rouge">Ctrl+L</code>.</li>
-  <li>Another named link to <a href="https://www.markitdown.net/">MarkItDown</a></li>
-  <li>Sometimes you just want a URL like <a href="https://www.markitdown.net/">https://www.markitdown.net/</a>.</li>
-</ul>
+<h2 id="onward-and-upward">Onward and Upward!</h2>
 
-<h2 id="horizontal-rule">Horizontal rule</h2>
-
-<p>A horizontal rule is a line that goes across the middle of the page.</p>
-
-<hr />
-
-<p>It’s sometimes handy for breaking things up.</p>
-
-<h2 id="images">Images</h2>
-
-<p>Markdown can also contain images. I’ll need to add something here sometime.</p>
-
-<h2 id="finally">Finally</h2>
-
-<p>There’s actually a lot more to Markdown than this. See the official <a href="https://daringfireball.net/projects/markdown/basics">introduction</a> and <a href="https://daringfireball.net/projects/markdown/syntax">syntax</a> for more information. However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.</p>]]></content><author><name>GitHub User</name></author><category term="markdown" /><category term="example" /><category term="markdown" /><summary type="html"><![CDATA[This note demonstrates some of what Markdown is capable of doing.]]></summary></entry></feed>
+<p>This site will grow quickly with the secondary goal of becoming the primary MQTT resource on the internet. We have had a great time learning the ins and outs of everything MQTT over the years, are excited to share our knowledge, and help the rest of the world understand this often opaque technology!</p>]]></content><author><name>MQTT Mafia</name></author><category term="about" /><category term="about" /><category term="mqtt-mafia" /><summary type="html"><![CDATA[The introductory post for MQTT Mafia describing why MQTT Mafia exists, what it stands for and how we intend to help the world learn MQTT!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/home.png" /><media:content medium="image" url="http://localhost:4000/assets/images/home.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
