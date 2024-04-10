@@ -7,24 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>What is MQTT Mafia? | MQTT Mafia</title>
+<title>What is MQTT? | MQTT Mafia</title>
 <meta name="generator" content="Jekyll v4.3.3">
-<meta property="og:title" content="What is MQTT Mafia?">
+<meta property="og:title" content="What is MQTT?">
 <meta name="author" content="MQTT Mafia">
 <meta property="og:locale" content="en_US">
-<meta name="description" content="The introductory post for MQTT Mafia describing why MQTT Mafia exists, what it stands for and how we intend to help the world learn MQTT!">
-<meta property="og:description" content="The introductory post for MQTT Mafia describing why MQTT Mafia exists, what it stands for and how we intend to help the world learn MQTT!">
-<link rel="canonical" href="http://localhost:4000/about/2024/04/04/what-is-mqtt-mafia.html">
-<meta property="og:url" content="http://localhost:4000/about/2024/04/04/what-is-mqtt-mafia.html">
+<meta name="description" content="Learn the basics of MQTT. What it is, how it works, why you want to use it, and how it fits into your overall data management strategy.">
+<meta property="og:description" content="Learn the basics of MQTT. What it is, how it works, why you want to use it, and how it fits into your overall data management strategy.">
+<link rel="canonical" href="http://localhost:4000/mqtt-101/2024/04/05/what-is-mqtt.html">
+<meta property="og:url" content="http://localhost:4000/mqtt-101/2024/04/05/what-is-mqtt.html">
 <meta property="og:site_name" content="MQTT Mafia">
-<meta property="og:image" content="http://localhost:4000/assets/images/home.png">
+<meta property="og:image" content="http://localhost:4000/assets/images/mqtt-101.png">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2024-04-04T00:00:00-04:00">
+<meta property="article:published_time" content="2024-04-05T00:00:00-04:00">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="http://localhost:4000/assets/images/home.png">
-<meta property="twitter:title" content="What is MQTT Mafia?">
+<meta property="twitter:image" content="http://localhost:4000/assets/images/mqtt-101.png">
+<meta property="twitter:title" content="What is MQTT?">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"MQTT Mafia"},"dateModified":"2024-04-04T00:00:00-04:00","datePublished":"2024-04-04T00:00:00-04:00","description":"The introductory post for MQTT Mafia describing why MQTT Mafia exists, what it stands for and how we intend to help the world learn MQTT!","headline":"What is MQTT Mafia?","image":"http://localhost:4000/assets/images/home.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/about/2024/04/04/what-is-mqtt-mafia.html"},"url":"http://localhost:4000/about/2024/04/04/what-is-mqtt-mafia.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"MQTT Mafia"},"dateModified":"2024-04-05T00:00:00-04:00","datePublished":"2024-04-05T00:00:00-04:00","description":"Learn the basics of MQTT. What it is, how it works, why you want to use it, and how it fits into your overall data management strategy.","headline":"What is MQTT?","image":"http://localhost:4000/assets/images/mqtt-101.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/mqtt-101/2024/04/05/what-is-mqtt.html"},"url":"http://localhost:4000/mqtt-101/2024/04/05/what-is-mqtt.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="icon" href="">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -760,11 +760,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 
 <header class="post-header">
-  <h1 class="post-title p-name" itemprop="name headline">What is MQTT Mafia?</h1>
-  <h2 class="post-subtitle">Start making your data work for you using MQTT.</h2>
+  <h1 class="post-title p-name" itemprop="name headline">What is MQTT?</h1>
+  <h2 class="post-subtitle">The high level details of MQTT.</h2>
 
   <p class="post-meta">
-    <time class="dt-published" datetime="2024-04-04T00:00:00-04:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Apr 04, 2024
+    <time class="dt-published" datetime="2024-04-05T00:00:00-04:00" itemprop="datePublished"><i class="fa fa-calendar"></i> Apr 05, 2024
     </time>
 
     
@@ -801,94 +801,129 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
 
 
-    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 6 mins</span>
+    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> About 9 mins</span>
   </p>
-<div class="post-tags">
-<a class="post-tag" href="/tags.html#about">#about</a><a class="post-tag" href="/tags.html#mqtt-mafia">#mqtt-mafia</a>
-</div></header>
+<div class="post-tags"><a class="post-tag" href="/tags.html#mqtt-101">#mqtt-101</a></div></header>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
     <div class="post-content e-content" itemprop="articleBody">
 
-      <p>MQTT has been around for a long time.</p>
+      <p>MQTT is a communication protocol typically used to send data from various devices or equipment to other devices, equipment, or software systems. It was originally designed with oil and gas pump stations in mind.</p>
 
-<p>Many people are finding out about it for the first time. While it can be an extremely powerful tool across many use cases and industries, it is also a dense topic to learn.</p>
+<p>The original goal of MQTT was to provide a way to send data from critical assets, typically located in not well connected locations, over slow networks, using as little bandwidth as possible.</p>
 
-<p>There are a lot of tutorials out there showing you how to accomplish a specific task in a particular scenario. If you aren’t trying to do that exact thing you are going to run into some hurdles.</p>
+<p>This goal led to a few of the benefits of MQTT as a large scale communication platform compared to other communication protocols.</p>
 
-<h2 id="the-goal-of-mqtt-mafia">The Goal of MQTT Mafia</h2>
+<h2 id="what-is-a-communication-protocol">What is a Communication Protocol?</h2>
 
-<p>MQTT Mafia’s primary goal is to simplify MQTT, make it easy to understand across the many different use cases, and give you the tools you need to be proficient with MQTT.</p>
+<p>A communication protocol is an agreed upon way to format data to send it from Point A to Point B and beyond. Typically a protocol will have a specification used by anyone who wants to implement it describing the format of data, any triggers they need to account for, how the data is transmitted, and what to do when data is received (for bi-directional protocols).</p>
 
-<p>While there are probably interesting ways you could use MQTT in a criminal sense, we are using the definition of Mafia to mean the following:</p>
+<p>Common industrial protocols include Modbus, OPC, Ethernet/IP, Profinet, and MQTT.</p>
 
-<p>“<strong><em>a group of people of similar interests or backgrounds prominent in a particular field or enterprise</em></strong>”</p>
+<p>Typically a hardware manufacturer will have a protocol their equipment supports natively. The first industrial communication protocol, Modbus, was developed by Modicon for their PLC hardware used in process controls applications.</p>
 
-<p>Our similar interests are MQTT, data management, and educating the world on how to use technology to solve problems. We have experience in manufacturing, technology, software development, home automation, and many other areas, using MQTT as a way to connect different devices, people, systems, and send data back and forth.</p>
+<p>Each protocol will specify how data is formatted when it is transmitted, what to do when it is received, and in the case of industrial data, how to “address” data so you know a particular value should be mapped to a given data point.</p>
 
-<p>You might find us on the floor of the Entelec conference. You might find us discussing the ins and outs of MQTT in conjunction with Unified Namespaces, and you might find us setting up sensors at our houses to collect as much interesting data we can about the worl around us.</p>
+<p>Industrial communication protocols thus form the foundation of “tags” in most SCADA systems where a tag is a particular datapoint with a user-readable name mapped to some value in the process. In the case of Modbus this will be something like 40301 which might map to Tank 101’s level indicator.</p>
 
-<p>We are not a closed group, we welcome new people into the fold all the time and are excited to have us be part of your journey!</p>
+<p>In the case of MQTT this address is defined by the topic definition, something we will get into later on in this post.</p>
 
-<h3 id="we-plan-to-accomplish-this-goal-by-doing-a-few-things">We plan to accomplish this goal by doing a few things:</h3>
+<h2 id="how-does-mqtt-work">How Does MQTT Work?</h2>
 
-<ol>
-  <li>Explaining HOW to do things, first in specific instances, then generalizing the concepts so you can apply them anywhere.</li>
-  <li>Using open source tools and/or free tools where possible.</li>
-  <li>Showing you real-world architectures and implementations</li>
-  <li>Doing cool stuff you wouldn’t think is possible with MQTT</li>
-</ol>
+<p>Most of the industrial communication protocols are “polled” meaning a central server or software package will “poll” devices on a cyclic basis to read data. This requires the server to know what data it is looking for, send requests out to the various devices with the data, and request new values. The new values are pulled together by the device, then sent back to the server. This requires more bandwidth than something like MQTT, because the traffic is always bi-directional.</p>
 
-<h2 id="how-to-do-and-how-to-generalize">How to Do and How to Generalize</h2>
+<p>MQTT on the other hand uses a concept called publish/subscribe where devices will publish data to a central data broker, and users of the data can subscribe to the broker to get updated data as it is sent. This means in a lot of cases the data flow will only be one way cutting the overall bandwidth requirements significantly.</p>
 
-<p>The main hurdle in most MQTT tutorials and documentation is giving you a single example of setting up a connection and not giving you any context as to why you are making certain decisions.</p>
+<p>Data flow using MQTT can be bi-directional too, it simply is required to be.</p>
 
-<p>This leads to a lot more troubleshooting and banging your head against the wall than anyone should have to experience while trying to get data from point A to point B.</p>
+<p>MQTT has a few major concepts you will need to understand:</p>
 
-<p>If you have ever not seen data come across because your Primary Host ID didn’t match, you didn’t use the correct format for your access lists, or you had an errant typo in a topic name you are not alone.</p>
+<h3 id="mqtt-broker">MQTT Broker</h3>
 
-<p>MQTT doesn’t have to be a house of cards where the only way to figure it out is to keep shuffling up and trying again when it falls over. You don’t need Arlen Nipper, one of the creators of MQTT to come out to your facility to implement it for you, and you certainly don’t need to spend as much time as we have over the years scratching your head until you finally stumble upon the magic combination that works.</p>
+<p>The main component of any MQTT system is the MQTT Broker. This can be something you run on a server on your network, or it can be a service like HiveMQ or an open source alternative Mosquitto that runs in the cloud.</p>
 
-<p>We will not only show you how to do a particular task, demonstrating WHAT we are doing. We will also explain WHY we are doing it, and how that applies to the overall concepts in play. This will help you expand your knowledge and understanding, making it easier to solve problems in the future.</p>
+<p>Some SCADA systems like Ignition support the Chariot Broker from Cirrus Link as part of their native set of tools, although you can use an MQTT broker you want in place of the Chariot Broker.</p>
 
-<h2 id="free-and-open-source-where-possible">Free and Open Source Where Possible</h2>
+<p>The broker is the central repository all of the data will pass through. You can use multiple brokers in an architecture, and they can be connected together, but for simplicity we will just look at a single broker for this post.</p>
 
-<p>Yes you can spend a decent amount of money on MQTT software, cloud brokers, and labor to set everything up. One of the beauties of MQTT is being able to take advantage of free and open source tools to learn without having to invest anything more than your time.</p>
+<h3 id="mqtt-client">MQTT Client</h3>
 
-<p>Unless we are diving into a particular tool to demonstrate something, we will use free and open source options wherever possible to make it easy for anyone with a computer to get their hands dirty with MQTT.</p>
+<p>MQTT Clients are the various devices, services, or users of your data. A client can be a field device like a PLC or a sensor, it can be a software platform like Ignition, or a database, or it could be a website capable of connecting to an MQTT broker directly.</p>
 
-<h2 id="where-the-rubber-meets-the-road">Where the Rubber Meets the Road</h2>
+<p>Clients can generate data to send to the broker, they can connect to the broker to subscribe to data from other clients, or they can read and write data as needed. While most systems will have one or a few brokers, they may have hundreds or thousands of clients.</p>
 
-<p>While we won’t be opening up brokers to the public to get into closed systems, we will be explaining how we have used MQTT across various industries, applications, and use cases to give you an idea of what is possible.</p>
+<p>In the original use case for oil/gas pump stations each pump station would be an MQTT client, sending and receiving data from the broker as it became available.</p>
 
-<p>It’s great to hear conference sessions looking at millions of data points streaming all over the world. Numbers on a slide deck don’t always translate to the nitty gritty details of how something works.</p>
+<h3 id="mqtt-topic">MQTT Topic</h3>
 
-<p>We will share examples of how it has worked for us in the past, lessons we learned along the way, and how you can get the same results, or even leapfrog us and do your own awesome stuff!</p>
+<p>For a client to send data to a broker it needs to be mapped to an MQTT Topic. A topic is a user-definable “address” for lack of a better word mapping out where the data came from and what it represents.</p>
 
-<h2 id="lets-do-cool-stuff-you-didnt-think-was-possible">Let’s Do Cool Stuff You Didn’t Think Was Possible!</h2>
+<p>A typical MQTT topic will have some form of naming convention with various “levels” separated by slashes. Each level will represent something at that level of the hierarchy, with each subsequent level getting more granular down to an individual datapoint.</p>
 
-<p>MQTT is an interesting protocol. Not only can you do typical, some might even say boring, stuff with it like sending process data from one place to another. Sure, you can set up edge nodes and converge your IT/OT networks, and build Unified Namespaces.</p>
+<p>For the oil/gas example some topics might be:</p>
 
-<p>You can also set up messaging interfaces (Facebook uses MQTT for its Messenger Service), integrate with file systems (for doing things like grabbing images from IP Cameras and sending those up to your broker), and many other interesting use cases beyond just grabbing process data.</p>
+<p>spike_ridge/pump_station/motor_001/speed
+spike_ridge/pump_station/well/level
+spike_ridge/pump_station/door_alarm</p>
 
-<p>Over time we will show off some of these cool projects, find more interesting ones to share, and hopefully give you a lot of ideas you can use on your journey to fully understanding MQTT.</p>
+<p>These 3 data points all come from the Spike Ridge site, are related to the Pump Station at that site, and refer to various signals related to the pump station itself. In this case we have the speed for Motor 001, the well level, and a door open alarm for the pump station building.</p>
 
-<h2 id="onward-and-upward">Onward and Upward!</h2>
+<p>The device at the pump station sending data would publish data using these topics to the MQTT broker at the main control station. Any signals like setpoints or alarm acknowledgement would be sent back on relevant topics, and the SCADA system along with any other clients needing data from Spike Ridge could subscribe to these topics to get data as it is published.</p>
 
-<p>This site will grow quickly with the secondary goal of becoming the primary MQTT resource on the internet. We have had a great time learning the ins and outs of everything MQTT over the years, are excited to share our knowledge, and help the rest of the world understand this often opaque technology!</p>
+<p>Clients can subscribe to the specific values if they only need the motor speed, or they can subscribe to the entire spike_ridge/pump_station topic, or the spike_ridge site level using wildcards for the lower levels in the topic to get all of the relevant data.</p>
+
+<p>Data can also be packaged up into various formats to send multiple datapoints for motor_001 as a JSON string or in other formats if needed, although we will save that for a future post. Topics can also be used to send files and many other datatypes, although we’ll save that for a future post too.</p>
+
+<h2 id="what-makes-mqtt-great">What Makes MQTT Great?</h2>
+
+<p>While MQTT was originally developed with a focus of reducing bandwidth to send industrial data across a network, it has grown into a powerhouse of the industrial automation world with many of the original design goals making it easy for MQTT to scale to some of the largest systems in the world!</p>
+
+<h3 id="lightweight-and-efficient">Lightweight and efficient</h3>
+<p>MQTT was designed to be lightweight and efficient in its use of bandwidth. While this is great for remote sites with intermittent cell connections, it works even better at large scale with always connected systems by reducing the network bandwidth for all data.</p>
+
+<p>This low bandwidth design coupled with the pub/sub architecture allows MQTT to handle massive amounts of data from hundreds or thousands of devices on a high bandwidth connection. This is enabled the rapid expansion of cloud-based systems like Amazon Web Services built on MQTT as a primary data source.</p>
+
+<h3 id="secure">Secure</h3>
+<p>As a protocol built on the TCP/IP network stack, MQTT has security built in. This allows you to use certificates to enable secure and encrypted connections. MQTT also lets you authenticate your MQTT clients ensuring only authorized users can access your data.</p>
+
+<h3 id="reliable">Reliable</h3>
+<p>The original design goal of enabling sites with un-reliable cell service makes MQTT one of the most robust communication protocols available.</p>
+
+<p>MQTT gives you the ability to set up various Quality of Service levels to ensure your data makes it where it needs to go with confirmation for the most critical data.</p>
+
+<p>Many platforms also layer on store and forward capabilities giving you a very powerful set of tools ensuring your valuable data gets where it needs to go, even in the most critical applications.</p>
+
+<h3 id="scalable">Scalable</h3>
+<p>MQTT is highly scalable, capable of handling the largest systems known to humanity. Some systems even have clients in the millions. While you need a powerful network to handle this, and potentially some decisions about how often some of your data is published, MQTT is capable of supporting the largest systems possible compared to other protocols.</p>
+
+<p>This is all because of the original design goals focused on building the smallest resource usage protocol possible.</p>
+
+<h3 id="open-and-well-supported">Open and Well Supported</h3>
+
+<p>Unlike some of the other protocols requiring expensive investment into the various foundations supporting them, MQTT is an open platform with freely available specifications.</p>
+
+<p>This means any person on the planet can download the specifications and build MQTT compliant hardware and software.</p>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>MQTT is a great communication protocol. It is capable of handling massive amounts of data in complex formats. It is open and reliable, and is in use by some of the biggest companies in the world.</p>
+
+<p>It is also completely suitable and widely used by people for smaller projects like home automation because it is freely available and supported at every level of the industrial information technology stack.</p>
+
+<p>We’ll dive deeper into these topics and more in future posts! Thanks for following along.</p>
 
 
     </div>
 
 </article>
 <div class="post-nav">
-<span></span><a class="next" href="/mqtt-101/2024/04/05/what-is-mqtt.html" title="What is MQTT?">What is MQTT?</a>
+<a class="previous" href="/about/2024/04/04/what-is-mqtt-mafia.html" title="What is MQTT Mafia?">What is MQTT Mafia?</a><span></span>
 </div>
 <div class="post-related">
       <div>Related Articles</div>
       <ul>
-        <li><a class="post-link" href="/about/2024/04/04/what-is-mqtt-mafia.html" title="What is MQTT?">What is MQTT Mafia?</a></li>
-<li><a class="post-link" href="/mqtt-101/2024/04/05/what-is-mqtt.html" title="What is MQTT?">What is MQTT?</a></li>
+        <li><a class="post-link" href="/about/2024/04/04/what-is-mqtt-mafia.html" title="">What is MQTT Mafia?</a></li>
+<li><a class="post-link" href="/mqtt-101/2024/04/05/what-is-mqtt.html" title="">What is MQTT?</a></li>
 </ul>
     </div>
 <div class="post-comments"></div></section>
