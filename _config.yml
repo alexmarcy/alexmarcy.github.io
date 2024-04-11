@@ -24,10 +24,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MQTT Mafia
-email: your-email@domain.com
-author: MQTT Mafia
-
+  title: MQTT Mafia
+  email: your-email@domain.com
+  author: MQTT Mafia
+  permalink: /posts/:title
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
 # * current year: {currentYear}
@@ -40,13 +40,13 @@ author: MQTT Mafia
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "(c) {currentYear} {author}"
+  copyright: "(c) {currentYear} {author}"
 
-description: MQTT Mafia is the primary resource for MQTT information on the internet. It provides open and honest discussions about how to perform various tasks with MQTT enabled technology. MQTT Mafia is an educational resource for anyone looking to use MQTT in their technology stack.
-tagline: MQTT will help you manage your data so you can stop fighting it and start putting it to work for you!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
+  description: MQTT Mafia is the primary resource for MQTT information on the internet. It provides open and honest discussions about how to perform various tasks with MQTT enabled technology. MQTT Mafia is an educational resource for anyone looking to use MQTT in their technology stack.
+  tagline: MQTT will help you manage your data so you can stop fighting it and start putting it to work for you!
+  baseurl: "" # the subpath of your site, e.g. /blog
+  url: "" # the base hostname & protocol for your site, e.g. https://example.com
+  favicon: "" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -67,7 +67,7 @@ yat:
 # enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+ sitemap: true
 
 # If you want to change site language, you can set lang option
 # lang: "en"  # default lang is en
@@ -209,9 +209,9 @@ markdown: kramdown
 kmarkdown:
   input: GFM
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-spaceship
+  plugins:
+    - jekyll-feed
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-paginate
+    - jekyll-spaceship
